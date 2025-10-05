@@ -14,7 +14,7 @@ $localhost_db = [
 $jacob5_db = [
     'host' => 'talsprddb02.int.its.rmit.edu.au',
     'user' => 's4150225', // Your student ID
-    'pass' => 'password', // Your chosen password
+    'pass' => 'cisco123', // Your chosen password
     'name' => 's4150225'  // Your student ID
 ];
 
@@ -35,4 +35,5 @@ if (!$conn) {
 
 // Set character set to utf8mb4 for full Unicode support
 mysqli_set_charset($conn, "utf8mb4");
+
 ?>
